@@ -3,6 +3,7 @@ package com.OrangeShopping.dao;
 import org.springframework.stereotype.Service;
 
 import com.OrangeShopping.model.Register;
+import com.OrangeShopping.model.UserCredential;
 
 @Service("registerDAO")
 public interface RegisterDAO{
@@ -11,8 +12,5 @@ public interface RegisterDAO{
 	public void deluser(int i);
 	public void showuser();
 	public void getinfo();
-
-
-	
-	
+	UserCredential getuserid(String userid);
 }

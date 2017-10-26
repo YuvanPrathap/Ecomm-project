@@ -959,7 +959,7 @@ body{
       height: 100%;
     } 
     .item:nth-child(1) {
-      background: url('https://images-eu.ssl-images-amazon.com/images/G/31/img14/handbags/201411/leather/159_In_handbags_leather-test._CB320783421_.jpg');
+      background: url('http://www.glass-bongs.me.uk/includes/templates/uk/images/banner.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -973,7 +973,7 @@ body{
     }
 
     .item:nth-child(3) {
-      background: url('http://www.webdesigndev.com/wp-content/uploads/2014/12/Mens-Shirts.jpg');
+      background: url('https://cdn.shopify.com/s/files/1/2265/5245/collections/Mens-Fashion-Accessories-in-Pakistan-Mens-Accessories-Online-Shopping-in-Pakistan-2_result_1000x.jpg?v=1506516406');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1188,13 +1188,13 @@ $('a[href*=#]:not([href=#])').click(function() {
                </div>
                <div class="navbar-collapse collapse">
                   <ul class="fullpage__nav nav navbar-nav navbar-right mnav">
-                     <li><a href="#home">Home</a></li>
-                     <li><a href="#Admin">Admin</a></li>
-                     <li><a href="Register">Register</a></li>
+                     <li><a href="Home">Home</a></li>
+                    <li><a href="Register">Register</a></li>
                      <li><a href="ViewProduct">ViewProduct</a></li>
                      <li><a href="Addproduct">AddProducts</a></li>
                      <li><a href="#contact">Contact Us</a></li>
                      <li><a href="#about">About Us</a></li>
+                      <li><a href="Login">Login</a></li>
                      
                     </ul>
                </div>

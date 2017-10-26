@@ -21,7 +21,17 @@ package com.OrangeShopping.model;
 	String Contactno;
 	@Column
 	String password;
+	@Column
+	private boolean enabled;
 	
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+
 	public String getUsername() {
 		return username;
 	}
